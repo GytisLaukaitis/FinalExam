@@ -101,7 +101,7 @@ class CompanyController extends Controller
     public function destroy(Company $company)
     {
         if (count($company->customers)){ 
-            return back()->withErrors(['error' => ['Negalima ištrinti įmonės turinčios klientų. Pirmiausia ištrinkine priskirtus klientus.']]);
+            return back()->withErrors(['error' => ['Negalima ištrinti įmonės turinčios klientų. Pirmiausia panaikinkite klientų priskyrimą.']]);
         }
         $company->delete();
         return redirect()->route('company.index');

@@ -28,7 +28,7 @@ class CompaniesSeeder extends Seeder
                     (408) 996–1010',
                     ],
                     [
-                        'name' => 'Smasung',
+                        'name' => 'Samsung',
                         'address' => 'Kazkur toli',
                         ],
                         [
