@@ -6,11 +6,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+
 ## How to run this
 
 1. Download or clone code
 2. Import finalexam.sql file or just run seeders and migrations with : php artisan migrate:fresh --seed
 3. Open on local server
+4. Login: gytislaukaitis@gmail.com  Password: gytis
 
 ## About Laravel
 
